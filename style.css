@@ -1,0 +1,145 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+section {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.parallax h1{
+    font-size: 4rem;
+}
+
+.parallax p{
+    font-size: 20px;
+}
+
+
+#section1 {
+    background-image: url('./images/elden-1.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+h1{
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #333;
+}
+
+#section2 {
+    background: #f4f4f4;
+    color: white;
+    background-image: url('./images/rdr2-2.webp');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section3 {
+    background: #f4f4f4;
+    color: white;
+    background-image: url('./images/fw-2.webp');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section4 {
+    background: #f4f4f4;
+    color: white;
+    background-image: url('./images/got-2.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section5 {
+    background: #f4f4f4;
+    color: white;
+    background-image: url('./images/uncharted-1.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section6 {
+    background: #f4f4f4;
+    color: white;
+    background-image: url('./images/far-cry-5.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section7 {
+    background: #f4f4f4;
+    color: white;
+    background-image: url('./images/rdr-3.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section7 img{
+    height: 40vh;
+    margin-left: 66%;
+    margin-bottom: -50px;
+}
+
+
+.content h2{
+    color: white;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #333;
+    font-size: 4rem;
+}
+
+.description{
+    background-color: #333;
+    margin-bottom: -10px;
+}
+
+.description h2{
+    padding: 100px;
+    font-size: 20px;
+    color: white;
+}
+.content {
+    position: relative;
+    z-index: 2;
+}
+
+.parallax::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
